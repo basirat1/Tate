@@ -7,7 +7,7 @@ window.onload = function(){
         }
 
         function getRandom(min, max) {
-          let rand = min - 0.5 + Math.random() * (max - min + 1);
+          let rand = min - 0.00053 + Math.random() * (max - min + 0.00053);
           return Math.round(rand);
         }
 
